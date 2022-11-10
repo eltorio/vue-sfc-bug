@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-# to reproduct
+# to reproduce
 ```bash
 npm init vue@latest  # with typescript router pinia -no test (name is vue-sfc-bug
 cd vue-sfc-bug
