@@ -6,8 +6,9 @@ import router from './router'
 
 import './assets/main.css'
 
+const baseUrl = import.meta.url
 const useImage = (url: string) => {
-    return new URL(`/src/${url}`, import.meta.url).href;
+    return new URL(`/src/${url}`, baseUrl).href;
   };
   
 const app = createApp(App)
